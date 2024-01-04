@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.image_header{
+    
+    
+    
+}
+.responsive {
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    color: white;
+    text-align: right;
+    z-index: -1;
+}
+
+.admin-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    text-align: right;
+    z-index: 1;
+}
+
+.content > div {
+    z-index: 0; /* Set z-index for the div containing text */
+}
+
+p.two {
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; 
+    color: white;
+    
+    font-family:'Times New Roman', Times, serif;
+    }
+.administrator {
+    display: inline-block;
+    color: white;
+}
+.learns{
+    font-family:'Courier New', Courier, monospace;
+    color: grey;
+
+}
+.ul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    text-align: right;
+}
+
+.ul2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    width: 20%;
+    text-align: center;
+    background-color: rgb(25, 25, 63);
+}
+li {
+    padding: 10px;
+  
+    display: block;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    margin-bottom: px;
+
+  border-collapse: collapse;
+}
+li:hover {
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+}
+
+/* Style the list container */
+.list-container {
+    flex: 1;
+    max-width: 60%; /* Adjust the width as needed */
+    margin-right: -750px; /* Adjust the spacing between list and image */
+}
+.list-container2 {
+    padding: 2px;
+    margin: 2px;
+    flex: 1;
+    max-width: 60%; /* Adjust the width as needed */
+    margin-right: -750px; /* Adjust the spacing between list and image */
+}
+/* Style the image container */
+.image-container {
+    flex: 1;
+    max-width: 40%; /* Adjust the width as needed */
+}
+
+/* Style the image */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
