@@ -51,6 +51,7 @@
 
 .admin-form {
     position: absolute;
+    display: flex;
     top: 0;
     right: 0;
     padding: 15px;
@@ -63,7 +64,8 @@
 }
 
 p.two {
-    position: fixed;
+    position: absolute;
+    display: flex;
     top: 10px; /* Adjust the top position as needed */
     right: 10px; 
     color: white;
@@ -71,7 +73,7 @@ p.two {
     font-family:'Times New Roman', Times, serif;
     }
 .administrator {
-    display: inline-block;
+    
     color: white;
 }
 .learns{
@@ -79,53 +81,42 @@ p.two {
     color: grey;
 
 }
-.ul1 {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 20%;
-    text-align: right;
-}
 
-.ul2 {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    color: white;
-    width: 20%;
-    text-align: center;
-    background-color: rgb(25, 25, 63);
-}
 li {
     padding: 10px;
-  
+  width: 150px;
     display: block;
-    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-bottom: 1px solid black;
+text-align: right;
     margin-bottom: px;
 
-  border-collapse: collapse;
+ 
+}
+.event{
+    color: whitesmoke;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    
 }
 li:hover {
     background-color: #f0f0f0;
 }
-.container {
-    display: flex;
+
+.list_home{
+      display: block;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-right: 50px;
+    max-width: 150px;
+    background-color: #ccc;
+    justify-content: end;
+    
+
+   
 }
 
-/* Style the list container */
-.list-container {
-    flex: 1;
-    max-width: 60%; /* Adjust the width as needed */
-    margin-right: -750px; /* Adjust the spacing between list and image */
-}
-.list-container2 {
-    padding: 2px;
-    margin: 2px;
-    flex: 1;
-    max-width: 60%; /* Adjust the width as needed */
-    margin-right: -750px; /* Adjust the spacing between list and image */
-}
-/* Style the image container */
 .image-container {
     flex: 1;
     max-width: 40%; /* Adjust the width as needed */
@@ -135,4 +126,449 @@ li:hover {
 .image-container img {
     width: 100%;
     height: auto;
+
 }
+.left_container{
+    
+    /* position: absolute;
+    display: flex; Change to relative */
+    right: 20px;
+
+
+}
+.center_image{
+   
+}
+.featuredImage2{
+    width: 62%;
+    height: 238px;
+    padding: -2px;
+    position: absolute;
+    display: flex;
+    margin: -282px;
+    margin-top: -760px;
+    margin-left: 151px;
+}
+.register_box{
+    position: absolute;
+    display: flex;
+    height: 241px;
+    width: 25%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: -759px;
+    margin-left: 1000px;
+}
+.register{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 101%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 30px;
+    background-color: gray;
+   
+   
+}
+.reg_img{
+    position: absolute;
+    display: flex;
+    width: 92%;
+    height: 177px;
+    padding: -1px;
+    margin-left: 4%;
+    margin-top: 15%;
+}
+  
+
+.pen{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 22px;
+    padding: -1px;
+    margin-left: 79%;
+    margin-top: 5%;
+}
+   
+.handshaking_box{
+    position: absolute;
+    display: flex;
+    height: 242px;
+    width: 29%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: -512px;
+    margin-left: 157px;
+}
+
+.handshaking{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 27px;
+    background-color: gray;
+   
+   
+}
+.handshaking_img{
+    position: absolute;
+    display: flex;
+    width: 94%;
+    height: 85px;
+    padding: -1px;
+    margin-left: 4%;
+    margin-top: 18%;
+}
+  
+
+.lens{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 22px;
+    padding: -1px;
+    margin-left: 79%;
+    margin-top: 4%;
+}
+#more {display: none;}
+
+.read_more_p{
+    position: absolute;
+    display: flex;
+    /* text-align: end; */
+    padding: -14%;
+    margin: 0%;
+    bottom: 1%;
+    margin-bottom: 12px;
+}
+   
+   
+.calendar_box{
+    position: absolute;
+    display: flex;
+    height: 242px;
+    width: 29%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: -512px;
+    margin-left: 575px;
+}
+
+.calendar{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 27px;
+    background-color: gray;
+   
+   
+}
+.calendar_img{
+    position: absolute;
+    display: flex;
+    width: 94%;
+    height: 85px;
+    padding: -1px;
+    margin-left: 4%;
+    margin-top: 18%;
+}
+  
+
+.alarm{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 22px;
+    padding: -1px;
+    margin-left: 79%;
+    margin-top: 4%;
+}
+#more {display: none;}
+
+.read_more_p{
+    position: absolute;
+    display: flex;
+    /* text-align: end; */
+    padding: -14%;
+    margin: 0%;
+    bottom: 1%;
+    margin-bottom: 12px;
+}
+   
+  
+.coin_box{
+    position: absolute;
+    display: flex;
+    height: 242px;
+    width: 29%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: -512px;
+    margin-left: 992px;
+}
+
+.coin{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 27px;
+    background-color: gray;
+   
+   
+}
+.coin_img{
+    position: absolute;
+    display: flex;
+    width: 94%;
+    height: 85px;
+    padding: -1px;
+    margin-left: 4%;
+    margin-top: 18%;
+}
+  
+
+.talkIcon{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 22px;
+    padding: -1px;
+    margin-left: 79%;
+    margin-top: 4%;
+}
+#more {display: none;}
+
+.read_more_p{
+    position: absolute;
+    display: flex;
+    /* text-align: end; */
+    padding: -14%;
+    margin: 0%;
+    bottom: 1%;
+    margin-bottom: 12px;
+}
+
+
+.question_box{
+    position: absolute;
+    display: flex;
+    height: 336px;
+    width: 29%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: -254px;
+    margin-left: 157px;
+}
+
+.question{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 30px;
+    background-color: gray;
+    font-size:larger ;
+   
+}
+
+  
+
+.email{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 22px;
+    padding: -1px;
+    margin-left: 79%;
+    margin-top: 4%;
+}
+   
+.form{
+    position: absolute;
+    display: flex;
+    margin-left: 6%;
+    margin-top: 16%;
+}
+
+.news_box{
+    position: absolute;
+    display: flex;
+    height: 660px;
+    width: 56%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: -254px;
+    margin-left: 575px;
+}
+
+.news{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 30px;
+    background-color: gray;
+    font-size:larger ;
+   
+}
+
+  
+
+.pen{
+    position: absolute;
+    display: flex;
+    width: 3%;
+    height: 32px;
+    padding: -1px;
+    margin-left: 93%;
+    margin-top: 1%;
+}
+
+.jwlogo{
+    position: absolute;
+    display: flex;
+    margin-left: 100%;
+    margin-top: 12%;
+    float: right;
+}
+
+h1{
+   
+
+}
+.text
+{
+    position: absolute;
+    display: flex;
+    margin-top: 8%;
+    margin-left: 0%; 
+    width: 69%;
+    text-align: left;
+  
+  
+}
+.text2{
+    margin-top: 8%;
+    margin-left: 0%; 
+
+}
+
+
+.classes_box{
+    position: absolute;
+    display: flex;
+    height: 242px;
+    width: 29%;
+    padding: -2px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: -281px;
+    margin-top: 109px;
+    margin-left: 156px;
+}
+
+
+.classes{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding: 21px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-left-radius: 28px;
+    /* border-radius: 30px 28px 3px 32px; */
+    border-top-right-radius: 27px;
+    background-color: gray;
+   
+   
+}
+.seminar_img{
+    position: absolute;
+    display: flex;
+    width: 94%;
+    height: 163px;
+    padding: -1px;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+  
+
+.microphone{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 22px;
+    padding: -1px;
+    margin-left: 79%;
+    margin-top: 4%;
+}
+
+
